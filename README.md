@@ -10,6 +10,7 @@ Diabetes is among the most prevalent chronic diseases in the United States, impa
 - Undiagnosed: 8.7 million people (22.8% of adults are undiagnosed)
 - Prediabetes: Total: 97.6 million people aged 18 years or older have prediabetes (38.0% of the adult US population) 65 years or older: 27.2 million people aged 65 years or older (48.8%) have prediabetes
 
+
 **OBJECTIVES:**
 - Optimize Diabetes Prediction Model for Toddlers to Teenagers
 - Minimize False Positives to Avoid Unnecessary Stress and Medical Procedures
@@ -20,12 +21,14 @@ By reducing false positives, we can:
 - Encourage individuals who may be at risk to seek further confirmation and testing
 - Enable earlier detection and treatment of true diabetes cases in the general population.
 
+
 **DATA DICTIONARY:**
 The data contains the following attributes:
 Categorical:
 BMI; GenHlth; MentHlth; PhysHlth; Age; Income
 Numerical:
 Diabetes_012: Category of Diabetes (0- No Diabetes, 1- Pre-diabetes, 2- Diabetes); HighBP; HighChol; CholCheck; Smoker; HeartDiseaseorAttack; AnyHealthcare; Sex; Stroke; HvyAlcoholConsumption; NoDocbcCost; Age; Education; Income
+
 
 **RECOMMENDATIONS:**
 - Implement the Logistic Regression model for diabetes prediction, prioritizing precision and accuracy
